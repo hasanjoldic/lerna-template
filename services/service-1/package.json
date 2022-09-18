@@ -13,7 +13,7 @@
   "author": "Hasan Joldic <office@hasanjoldic.com> (https://hasanjoldic.com/)",
   "license": "MIT",
   "dependencies": {
-    "@<project-name>/<package-1>": "*"
+    "@hasan.joldic/<package-1>": "*"
   },
   "devDependencies": {}
 }
