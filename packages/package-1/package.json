@@ -1,0 +1,16 @@
+{
+  "name": "@<namespace>/<package-1>",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf node_modules tsconfig.tsbuildinfo dist",
+    "prebuild": "npm run clean",
+    "build": "tsc -b",
+    "build:watch": "npm run build -- --watch"
+  },
+  "author": "Hasan Joldic <office@hasanjoldic.com> (https://hasanjoldic.com/)",
+  "license": "MIT",
+  "dependencies": {}
+}
