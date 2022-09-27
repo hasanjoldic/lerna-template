@@ -12,20 +12,23 @@
     "vscode": {
       // Add the IDs of extensions you want installed when the container is created.
       "extensions": [
-        "dbaeumer.vscode-eslint",
+        "eamodio.gitlens", // Supercharge Git within VS Code
         "naumovs.color-highlight", // Highlight web colors in your editor
         "esbenp.prettier-vscode", // Code formatter using prettier
         "vscode-icons-team.vscode-icons", // Icons for Visual Studio Code
-        "wesbos.theme-cobalt2" // 🔥 Official theme by Wes Bos.
+        "wesbos.theme-cobalt2", // 🔥 Official theme by Wes Bos.
+        "aaron-bond.better-comments", // Improve your code commenting by annotating with alert, informational, TODOs, and more!
+        "dbaeumer.vscode-eslint", // Integrates ESLint JavaScript into VS Code.
+        "wix.vscode-import-cost", // Display import/require package size in the editor
+        "redhat.vscode-yaml", // YAML Language Support by Red Hat, with built-in Kubernetes syntax support
+        "DavidAnson.vscode-markdownlint", // Markdown linting and style checking for Visual Studio Code
+        "christian-kohler.npm-intellisense" // Visual Studio Code plugin that autocompletes npm modules in import statements
       ],
       "settings": {
         "workbench.colorTheme": "Cobalt2" // "wesbos.theme-cobalt2" // 🔥 Official theme by Wes Bos.
       }
     }
   },
-
-  // Use 'forwardPorts' to make a list of ports inside the container available locally.
-  "forwardPorts": [3000, 80],
 
   // Use 'postCreateCommand' to run commands after the container is created.
   // "postCreateCommand": "yarn install",
